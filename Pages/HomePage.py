@@ -70,5 +70,10 @@ class HomePage(BasePage):
         for element in names_elements_list:
             names.append(element.text)
         return names
-        
+
+    def get_navigate_by_url(self, url):
+        self.driver.get(url)
+
+
+
 

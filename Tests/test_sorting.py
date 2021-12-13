@@ -36,7 +36,7 @@ class TestSorting:
             hilo_prices.append(price)
         hilo_prices.reverse()
         assert sorted_name_az == sorted_name_za, "Something wrong with letter sorting."
-        assert lohi_prices == hilo_prices, "Somwthing wrong with price sorting."
+        assert lohi_prices == hilo_prices, "Something wrong with price sorting."
         
 
 
